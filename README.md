@@ -1,1 +1,3 @@
-# 心猫 PWA 项目
+npm install
+
+npm dev | npm start
