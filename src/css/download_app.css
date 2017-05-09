@@ -1,0 +1,30 @@
+.download-app {
+	height: 100vh;
+	position: relative;
+	background: #FFF url(https://oml9ntix5.qnssl.com/14921491177696046-750x1334.png) no-repeat;
+	background-size: 100% auto;
+
+	& .btn, & a {
+		position: absolute;
+		bottom: 1.3rem;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	& .btn {
+		width: 60%;
+		color: #FFF;
+		border-radius: 6px;
+		background-color: #33CCCC;
+		line-height: .7rem;
+	}
+
+	& a {
+		bottom: .5rem;
+		color: #33CCCC;
+		text-decoration: underline;
+	}
+}
+.webp .download-app {
+	background-image: url(https://oml9ntix5.qnssl.com/14921491177696046-750x1334.png?imageView2/1/format/webp);
+}

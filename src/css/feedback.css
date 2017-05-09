@@ -1,0 +1,39 @@
+.feedback .send {
+	color: #CCC;
+}
+.feedback .send.success {
+	color: #33CCCC;
+}
+
+.feedback-container {
+	color: #666;
+	font-size: .24rem;
+	text-align: center;
+
+	& div {
+		width: 1.48rem;
+		height: 1.48rem;
+		margin: .3rem auto;
+		background: url(https://oml9ntix5.qnssl.com/14907664509109506yu-82x82.png) no-repeat;
+		background-size: 100%;
+	}
+
+	& p {
+		line-height: .4rem;
+	}
+
+	& textarea {
+		display: block;
+		width: 93%;
+		height: 3rem;
+		padding: .2rem;
+		margin: .4rem auto;
+		border: 1px solid #EEE;
+		resize: none;
+		box-sizing: border-box;
+	}
+}
+
+.webp .feedback-container div {
+	background-image: url(https://oml9ntix5.qnssl.com/14907664509109506yu-82x82.png?imageView2/1/format/webp);
+}

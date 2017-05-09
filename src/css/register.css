@@ -1,0 +1,33 @@
+.register {
+	min-height: 100vh;
+	background-color: #FFF;
+
+	& .header-two {
+		margin-bottom: .8rem;
+		border-bottom: none;
+	}
+
+	& .login-item {
+		margin: 0 .3rem .6rem;
+	}
+
+	& .login-btn {
+		margin: 0 .3rem;
+	}
+}
+
+.get-code {
+	width: 1.8rem;
+	padding: .1rem .2rem;
+	box-sizing: border-box;
+	color: #FFF;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #CCC;
+}
+.get-code.actived {
+	background-color: #33CCCC;
+}
+.get-code.waiting {
+	opacity: .6;
+}

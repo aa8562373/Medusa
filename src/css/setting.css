@@ -1,0 +1,53 @@
+.setting-list {
+	padding: 0 .4rem;
+	margin-top: .24rem;
+	background-color: #FFF;
+
+	& li {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-right: .4rem;
+		position: relative;
+		line-height: 1.2rem;
+		border-bottom: 1px solid #EEE;
+	}
+
+	& li:last-child {
+		border-bottom: none;
+	}
+
+	& .avatar-wrapper {
+		width: .8rem;
+		height: .8rem;
+	}
+}
+
+.setting-avatar {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	& input {
+		display: none;
+	}
+}
+
+.sign-out {
+	width: 90%;
+	margin: .5rem auto 0;
+	color: #FFF;
+	font-size: .3rem;
+	text-align: center;
+	border-radius: 4px;
+	line-height: .88rem;
+	background-color: #D8584A;
+}
+
+.modify-nickname input {
+	width: 100%;
+	border: none;
+	line-height: .8rem;
+}

@@ -1,0 +1,70 @@
+.article-list {
+	margin-top: .16rem;
+}
+
+.article-item {
+	display: flex;
+	justify-content: space-between;
+	height: 2rem;
+	margin-bottom: .2rem;
+	font-size: .22rem;
+	border-bottom: 1px solid #EEE;
+	background-color: #FFF;
+
+	& .content {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		width: 50%;
+		padding: .15rem .2rem;
+		box-sizing: border-box;
+	}
+
+	& h4 {
+		color: #333;
+		font-size: .3rem;
+		word-wrap: break-word;
+	}
+
+	& p {
+		display: flex;
+		justify-content: space-between;
+		color: #999;
+	}
+
+	& .lazy-wrapper {
+		flex: 1;
+	}
+
+	& .lazy-img {
+		height: 2rem;
+	}
+
+	& .lazy-img-wrapper {
+		flex: 1;
+		position: relative;
+
+		& div:nth-child(1) {
+			height: 2rem;
+			background: #EFEFEF url(../images/lazy.png) no-repeat center;
+			background-size: 1.5rem;
+			transition: all .4s;
+		}
+
+		& img {
+			position: absolute;
+			top: 0;
+			opacity: 0;
+			transition: all .4s;
+		}
+	}
+}
+.article-item:last-child {
+	margin-bottom: 0;
+}
+.article-list li:last-child .article-item {
+	margin-bottom: 0;
+}
+.article-item.order .lazy-img-wrapper, .article-item.order img {
+	order: -1;
+}

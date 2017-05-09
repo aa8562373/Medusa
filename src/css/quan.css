@@ -1,0 +1,111 @@
+.friend-circle {
+	padding: .24rem;
+	margin-bottom: .24rem;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	background-color: #FFF;
+
+	& .no-avatar {
+		width: .6rem;
+		height: .6rem;
+	}
+
+	& span {
+		margin-right: .24rem;
+	}
+
+	& .nickname {
+		color: #333;
+	}
+
+	& .location {
+		padding: 0 .2rem;
+		line-height: .4rem;
+		border-radius: 10px;
+		border: 1px solid #608FDB;
+	}
+
+	& .picture {
+		margin-bottom: .24rem;
+	}
+
+	& .reply {
+		margin: .24rem .12rem 0;
+		padding: .12rem .12rem .24rem;
+		position: relative;
+		border-radius: 8px;
+		background-color: #FAF9F9;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: -.12rem;
+			right: .6rem;
+			border-right: .36rem solid transparent;
+			border-bottom: .24rem solid #FAF9F9;
+			border-left: .36rem solid transparent;
+		}
+
+		& span {
+			color: #608FDB;
+			font-size: .24rem;
+		}
+	}
+
+	& .reply-text {
+		margin-top: .1rem;
+		color: #666;
+		font-size: .28rem;
+	}
+}
+.friend-circle:first-child {
+	border-top: none;
+}
+.friend-circle:last-child {
+	margin-bottom: 0;
+}
+.friend-circle-header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: .2rem;
+	color: #608FDB;
+	font-size: .24rem;
+
+    & .lazy-img {
+    	width: .6rem;
+		height: .6rem;
+    }
+}
+.friend-circle-content {
+	display: block;
+	margin-bottom: .24rem;
+	color: #333;
+	font-size: .3rem;
+}
+.friend-circle-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #999;
+	font-size: .22rem;
+
+	& .comment {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	& span:last-child {
+		margin-right: 0;
+	}
+
+	& .praise {
+		color: #F4D084;
+	}
+
+	& svg {
+		width: .3rem;
+		height: .3rem;
+		margin-right: .1rem;
+	}
+}

@@ -1,0 +1,90 @@
+.discover-detail {
+	padding-bottom: 1.03rem;
+}
+.discover-detail .header-two {
+	border-bottom: none;
+}
+.discover-detail .footer {
+	margin-bottom: 0;
+}
+.discover-detail .friend-circle {
+	margin-bottom: 0;
+}
+.discover-detail .no-data {
+	margin-top: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.discover-detail-reply-list {
+	padding: 0 .24rem;
+	background-color: #FFF;
+
+	& li {
+		padding: .24rem 0 .3rem;
+		margin-bottom: .24rem;
+		border-bottom: 1px solid #EEE;
+	}
+
+	& li:last-child {
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+
+	& .header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: .2rem;
+		color: #666;
+		font-size: .24rem;
+
+		& p {
+			position: relative;
+		}
+	}
+
+	& .info {
+		flex: 1;
+		line-height: .35rem;
+
+		& span {
+			margin-right: .2rem;
+		}
+	}
+
+	& .lazy-wrapper {
+		margin-right: .24rem;
+		background-size: .5rem;
+	}
+
+	& .lazy-img {
+		width: .6rem;
+		height: .6rem;
+	}
+
+	& .no-avatar {
+		width: .6rem;
+		height: .6rem;
+		margin-right: .24rem;
+	}
+
+	& .time {
+		color: #999;
+		font-size: .22rem;
+	}
+
+	& .sex {
+		color: #608FDB;
+	}
+
+	& .location {
+		position: absolute;
+		right: 0;
+	}
+
+	& .comment {
+		color: #333;
+		font-size: .28rem;
+	}
+}
